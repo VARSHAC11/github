@@ -40,12 +40,12 @@ function createUserCard(user) {
           <div class="user-info">
               <h2>${user.login}</h2>
               <h3>${user.name}</h2>
-              <p>${user.bio}</p>
+             
               <ul class="info">
                   <li><strong>Followers :</strong>${user.followers}</li>
                   <li><strong>Following :</strong>${user.following}</li>
                   <li><strong>Repos :</strong>${user.public_repos}</li>
-                  <li><strong>Twitter :</strong> ${user.twitter_username}</li>
+                 
                   <li><strong>Location :</strong>${user.location}</li>
               </ul>
               <div id="repos"></div>
