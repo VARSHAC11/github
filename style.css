@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #fc4a1a;
-  background: linear-gradient(to right, #f7b733, #fc4a1a); 
+  background-image: linear-gradient(to left bottom, #0d02fb, #9400d7, #bf00b4, #d50097, #de0080, #dc0582, #db0a85, #d90f87, #cc10a0, #b524ba, #9138d3, #514ae9);
+   
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,8 @@ body {
 }
 
 input {
-  background-color: #fc4a1a;
+  background-color: blue;
+  font-weight:bold;
   border-radius: 10px;
   border: none;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
@@ -34,9 +35,7 @@ input::placeholder {
 }
 
 .card {
-  background-color: #fc4a1a;
-  background-image: linear-gradient(315deg, #f7b733 0%, #fc4a1a 100%);
-  border-radius: 20px;
+  background-image: linear-gradient(to right top, #8c66f8, #825df5, #7754f2, #6c4cee, #6043eb, #6043eb, #6043eb, #6043eb, #6c4cee, #7754f2, #825df5, #8c66f8);
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
       0 15px 40px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -45,7 +44,7 @@ input::placeholder {
 }
 
 .avatar {
-  border: 10px solid #f7b733;
+  border: 10px solid #051937;
   border-radius: 50%;
   height: 150px;
   width: 150px;
@@ -75,7 +74,7 @@ input::placeholder {
 }
 
 .repo {
-  background-color: #fc4a1a;
+  background-color: #390E7F;
   border-radius: 5px;
   display: inline-block;
   color: white;
