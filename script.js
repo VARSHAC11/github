@@ -1,3 +1,7 @@
+
+
+
+
 const API_URL = "https://api.github.com/users/";
 
 const main = document.querySelector(".main");
@@ -52,7 +56,7 @@ function createUserCard(user) {
               <h3>${user.name}</h2>
               
               <ul class="info">
-                  <li><strong>Followers :</strong>${user.followers}</li>
+                  <li><b>Followers :</b>${user.followers}</li>
                   <li><b>Following :</b>${user.following}</li>
                   <li><b>Repos :</b>${user.public_repos}</li>
                   
