@@ -44,8 +44,7 @@ function createUserCard(user) {
               <ul class="info">
                   <li><strong>Followers :</strong>${user.followers}</li>
                   <li><strong>Following :</strong>${user.following}</li>
-                  <li><strong>Repos :</strong>${user.public_repos}</li>
-                 
+                  <li><strong>Repos :</strong>${user.public_repos}</li>                 
                   <li><strong>Location :</strong>${user.location}</li>
               </ul>
               <div id="repos"></div>
